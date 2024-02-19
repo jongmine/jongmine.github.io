@@ -4,11 +4,10 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jongmin
-middle_name: R.
 last_name: Choi
 email: jongmine.ch@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  개발자가 되고픈 대학생의 개발일지
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -67,44 +66,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: jongmine # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
-scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
-zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+stackoverflow_id: jongmine # your stackoverflow id
+instagram_id: jongmine_c # your instagram id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  📫 Please feel free to reach me at jongmine.ch@gmail.com!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -123,8 +94,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: jongmine's devlog # blog_name will be displayed in your blog page
+blog_description: 개발자가 되고픈 대학생의 개발일지
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -282,30 +253,30 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_link: Details
-
-  query: "@*"
-  group_by: year
-  group_order: descending
+#scholar:
+#  last_name: [Choi]
+#  first_name: [Jongmin]
+#
+#  style: apa
+#  locale: en
+#
+#  source: /_bibliography/
+#  bibliography: papers.bib
+#  bibliography_template: bib
+#  # Note: if you have latex math in your bibtex, the latex filter
+#  # preprocessing may conflict with MathJAX if the latter is enabled.
+#  # See https://github.com/alshedivat/al-folio/issues/357.
+#  bibtex_filters: [latex, smallcaps, superscript]
+#
+#  replace_strings: true
+#  join_strings: true
+#
+#  details_dir: bibliography
+#  details_link: Details
+#
+#  query: "@*"
+#  group_by: year
+#  group_order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
